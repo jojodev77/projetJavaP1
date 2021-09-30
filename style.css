@@ -1,0 +1,102 @@
+body, #cv{
+font-family: arial;
+width: 100%;
+height: 100%;
+min-height: 100%;
+}
+
+#cv #presentation{
+  height: 33%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #7451EB;
+  min-width: 100%;
+  color: white;
+}
+
+#cv #presentation .column p{
+max-width: 60%;
+}
+
+#cv #presentation img{
+    height: 240px;
+    bottom: -80px;
+    position: relative;
+    border-radius: 5%;
+}
+
+#cv #competences{
+    height: 33%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+  }
+
+  #cv #competences img{
+    width: 282px;
+  }
+
+  #cv #competences .column{  
+    max-width: 60%;
+  }
+
+  #cv #contact{
+    height: 33%;
+    min-height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #003668;
+    color: white;
+  }
+
+  #cv #contact .column .row a{
+    color: white;
+    position: relative;
+    right: 75px;
+    top: 4px;
+  }
+
+  h2{
+     
+      box-sizing: content-box;
+      color: #015070;
+      width: 100%;
+      padding: 2px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+
+  h2 span{
+    background-color: #0BEDA3;
+    padding: 5px;
+  }
+
+  h3{
+    width: 250px;
+  }
+
+  p, li{
+    letter-spacing: 0.01em;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .column{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
+
